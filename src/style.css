@@ -30,6 +30,11 @@ main {
   padding: 0 1.3rem; 
   box-sizing: border-box;
 }
+
+header, footer {
+  padding: 0 1.3rem; 
+}
+
 html {
   overflow-y: scroll; 
 }
