@@ -194,8 +194,10 @@ main, header {
     flex-direction: row;
     justify-content: space-between;
     padding-block-start: clamp(1.3rem, 5vw, 2rem); 
-    padding-inline: clamp(2rem, 8vw, 9rem);
-    gap: clamp(2rem, 5vw, 5rem)
+    padding-inline: 1.3rem;
+    gap: clamp(2rem, 5vw, 5rem);
+    max-width: 1300px;
+    margin: 0 auto;
   }
 
   .intro__avatar {
